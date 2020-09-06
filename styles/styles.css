@@ -45,3 +45,15 @@ h1 {
   font-size: smaller;
   text-align: center;
 }
+
+/* RIGHT SIDE */
+
+.description {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding: 0.5rem;
+  width: 450px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
