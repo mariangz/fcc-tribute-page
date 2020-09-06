@@ -55,6 +55,7 @@ body {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
 }
 
 p:nth-child(2) {
@@ -64,6 +65,7 @@ p:nth-child(2) {
 
 .ul {
   padding-left: 0;
+  margin-top: 1rem;
 }
 
 .list {
