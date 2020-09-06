@@ -35,10 +35,11 @@ h1 {
 
 .figure_image {
   padding: 1rem;
-  max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .figure_caption {
@@ -80,4 +81,59 @@ h1 {
 .link:hover,
 .link:focus {
   transform: scale(1.2);
+}
+
+/* MEDIA QUERIES  */
+@media (min-width: 800px) {
+  /* HEADER */
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header_div {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+  }
+
+  /* MAIN */
+  .main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-figure {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+
+  /* RIGHT SIDE */
+  .section {
+    align-items: center;
+    display: flex;
+    width: 50%;
+  }
+  .figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .description {
+    padding: 0.5rem;
+    width: 450px;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* LEFT SIDE  */
+  .figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .figure_image {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
