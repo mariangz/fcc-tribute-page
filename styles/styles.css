@@ -11,3 +11,18 @@ body {
   min-height: 100vh;
   background-attachment: fixed;
 }
+
+/* HEADER */
+h1 {
+  text-align: center;
+}
+
+.header_title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.yellow-border {
+  border-bottom: 6px #f4e300 solid;
+}
