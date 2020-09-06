@@ -26,3 +26,22 @@ h1 {
 .yellow-border {
   border-bottom: 6px #f4e300 solid;
 }
+
+/* LEFT SIDE */
+.figure {
+  padding: 0.7rem;
+  margin: auto;
+}
+
+.figure_image {
+  padding: 1rem;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.figure_caption {
+  font-size: smaller;
+  text-align: center;
+}
