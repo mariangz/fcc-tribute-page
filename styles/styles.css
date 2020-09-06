@@ -46,7 +46,6 @@ body {
 }
 
 /* RIGHT SIDE */
-
 .description {
   font-size: 0.9rem;
   line-height: 1.5rem;
@@ -108,6 +107,7 @@ p:nth-child(2) {
     margin-left: auto;
     margin-right: auto;
   }
+
   .header_div {
     display: flex;
     justify-content: flex-start;
@@ -131,10 +131,6 @@ p:nth-child(2) {
     display: flex;
     width: 50%;
   }
-  .figure {
-    margin-left: 0;
-    margin-right: 0;
-  }
 
   .description {
     padding: 0.5rem;
@@ -143,6 +139,7 @@ p:nth-child(2) {
     margin-left: 0;
     margin-right: 0;
   }
+
   /* LEFT SIDE  */
   .figure {
     margin-left: 0;
