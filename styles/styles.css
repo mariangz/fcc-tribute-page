@@ -39,6 +39,8 @@ body {
   margin-right: auto;
   height: auto;
   max-width: 100%;
+  width: 150px;
+  height: 150px;
 }
 
 .figure_caption {
@@ -100,6 +102,12 @@ p:nth-child(2) {
 }
 
 /* MEDIA QUERIES  */
+@media (min-width: 600px) {
+  .figure_image {
+    width: 300px;
+    height: 300px;
+  }
+
 @media (min-width: 900px) {
   /* HEADER */
   .header {
@@ -149,5 +157,7 @@ p:nth-child(2) {
   .figure_image {
     margin-left: 0;
     margin-right: 0;
+    width: 450px;
+    height: 450px;
   }
 }
